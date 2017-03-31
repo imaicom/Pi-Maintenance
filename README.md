@@ -1,5 +1,3 @@
-# Pi-maintenance
-
 # [ Clear trash can ]  
 rm -RF /home/pi/.local/share/Trash/files/*  
 
