@@ -11,9 +11,9 @@ cd /backup; tar -cvf pi.tar /home/pi
 Create file /backup/maintenance.sh  
 ```
 #!bin/sh  
-rm -RF /home/pi/.local/share/Trash/files/*  
 rm -RF /home/pi/*  
 cd /; tar -xvf /backup/pi.tar  
+rm -RF /home/pi/.local/share/Trash/files/*  
 ```
 Executable /backup/maintenance.sh  
 ```
