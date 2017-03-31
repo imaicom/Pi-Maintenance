@@ -4,6 +4,7 @@ rm -RF /home/pi/.local/share/Trash/files/*
 ```
 # pi data backup of user  
 ```
+sudo su
 mkdir /backup  
 chown -R pi:pi /backup  
 cd /backup; tar -cvf pi.tar /home/pi  
