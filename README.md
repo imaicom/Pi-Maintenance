@@ -1,4 +1,4 @@
-# Clear trash can  
+# Clear the trash can  
 ```
 rm -Rf /home/pi/.local/share/Trash/files/*
 ```
@@ -9,7 +9,7 @@ mkdir /backup
 chown pi:pi /backup
 cd /backup; tar -cvf pi.tar /home/pi
 ```
-# Create file /backup/restore.sh  
+# Make /backup/restore.sh  
 ```
 vi /backup/restore.sh
 i
