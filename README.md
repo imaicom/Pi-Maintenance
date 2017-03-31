@@ -1,7 +1,7 @@
 # Clear trash can  
 rm -RF /home/pi/.local/share/Trash/files/*  
 
-# pi Data backup of user  
+# pi data backup of user  
 mkdir /backup  
 chown -R pi:pi /backup  
 cd /backup; tar -cvf pi.tar /home/pi  
