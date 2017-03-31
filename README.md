@@ -13,6 +13,7 @@ cd /backup; tar -cvf pi.tar /home/pi
 ```
 vi /backup/maintenance.sh
 i
+
 #!bin/sh  
 rm -Rf /home/pi/*  
 cd /; tar -xvf /backup/pi.tar  
