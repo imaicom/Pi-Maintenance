@@ -17,5 +17,6 @@ rm -RF /home/pi/.local/share/Trash/files/*
 ```
 # Executable /backup/maintenance.sh  
 ```
-chmod u+x /backup/maintenance.sh  
+chmod u+x /backup/maintenance.sh
+sh /backup/maintenance.sh
 ```
