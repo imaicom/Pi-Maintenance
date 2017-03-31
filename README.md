@@ -2,7 +2,7 @@
 ```
 rm -Rf /home/pi/.local/share/Trash/files/*
 ```
-# backup of pi user data  
+# backup of user's data  
 ```
 sudo su
 mkdir /backup
