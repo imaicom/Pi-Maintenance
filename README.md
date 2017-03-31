@@ -12,8 +12,7 @@ cd /backup; tar -cvf pi.tar /home/pi
 # Make /backup/restore.sh  
 ```
 vi /backup/restore.sh
-i
-
+[i]
 #!bin/sh
 rm -Rf /home/pi/*
 cd /; tar -xvf /backup/pi.tar
