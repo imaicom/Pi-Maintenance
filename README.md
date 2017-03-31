@@ -2,16 +2,16 @@
 ```
 rm -Rf /home/pi/.local/share/Trash/files/*
 ```
-# pi data backup of user  
+# backup of pi user data  
 ```
 sudo su
 mkdir /backup
 chown pi:pi /backup
 cd /backup; tar -cvf pi.tar /home/pi
 ```
-# Create file /backup/maintenance.sh  
+# Create file /backup/restore.sh  
 ```
-vi /backup/maintenance.sh
+vi /backup/restore.sh
 i
 
 #!bin/sh
@@ -20,8 +20,8 @@ cd /; tar -xvf /backup/pi.tar
 rm -Rf /home/pi/.local/share/Trash/files/*
 [esc][Z][Z]
 ```
-# Execute /backup/maintenance.sh  
+# Execute /backup/restore.sh  
 ```
-chmod u+x /backup/maintenance.sh
-sh /backup/maintenance.sh
+chmod u+x /backup/restore.sh
+sh /backup/restore.sh
 ```
