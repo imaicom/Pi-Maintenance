@@ -20,7 +20,7 @@ cd /; tar -xvf /backup/pi.tar
 rm -Rf /home/pi/.local/share/Trash/files/*
 [esc][Z][Z]
 ```
-# Executable /backup/maintenance.sh  
+# Execute /backup/maintenance.sh  
 ```
 chmod u+x /backup/maintenance.sh
 sh /backup/maintenance.sh
