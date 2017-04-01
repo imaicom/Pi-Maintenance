@@ -16,7 +16,6 @@ vi /backup/restore.sh
 #!bin/sh
 rm -Rf /home/pi/*
 cd /; tar -xvf /backup/pi.tar
-rm -Rf /home/pi/.local/share/Trash/files/*
 [esc][Z][Z]
 ```
 # Execute /backup/restore.sh  
